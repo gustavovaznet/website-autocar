@@ -1,0 +1,81 @@
+/*GENERAL CONFIG*/
+*{font-family: 'Exo 2', sans-serif;}
+html,body{height: 100%;scroll-behavior: smooth;}
+.block{min-height: 100%;}
+.color-back-one{background-color: #26a69a;}
+.color-back-two{background-color: #3e2723;}
+.color-txt-one{color: #26a69a;}
+.color-txt-two{color: #3e2723;}
+
+/*MENU - NAVBAR*/
+.logo-txt{font-size: 0;margin: 0;}
+.logo-img{width: 180px;margin-top: 10px;}
+nav {height: 66px;line-height: 66px;}
+nav.nav-extended .nav-wrapper {min-height: 66px;}
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.sidenav-trigger i {height: 66px;
+line-height: 66px;}
+.navbar-fixed {position: absolute;height: 66px;}
+.menu li a{color: #3e2723;}
+.menu li a:hover{color: #26a69a;}
+.menu_mobile_icon{color: #3e2723;}
+.menu_mobile_icon:hover{color: #26a69a;}
+.sidenav li a{color: #3e2723;}
+.sidenav li a:hover{color: #26a69a;}
+
+/*HOME SECTION*/
+.banner h1{font-size: 4rem;font-weight: 900;text-transform: uppercase;}
+.banner p{font-size: 1.2rem;}
+.banner a{background-color: #26a69a;margin-bottom: 20px;}
+.banner a:hover{background-color: #00695c;}
+.parallax-container{height: 440px;}
+.feature{padding: 20px;}
+
+
+/*ABOUT US SECTION*/
+.about{padding-bottom: 30px;}
+.about h2{margin-top: 96px;}
+.about h5{text-align: center;margin-top: 30px;}
+.about h5:after{content: '';display: block;border: 1px solid #3e2723;;
+margin: 20px auto;width: 200px;}
+.about h6{font-size: 1.5rem;text-align: center;}
+.schedule{background-color: #fff;width: 100%;min-height: 500px;
+padding: 30px;margin: 10px;}
+.about form button:hover{background-color: #00695c;}
+.map iframe{width: 100%;min-height: 500px;margin: 10px;}
+
+/*CONTACT SECTION*/
+.contacts{background-image: url('../img/bg2.jpg');background-repeat: no-repeat;
+background-attachment: fixed;}
+.contact{background-color: #fff;width: 100%;min-height: 350px;padding: 20px;
+margin: 40px 0;border-radius: 5px;}
+.contact h2{font-size: 2rem;font-weight: 900;}
+.contact a i:hover{background-color: #00695c;}
+.contact p{color: #3e2723;line-height: 2rem;}
+
+/*FOOTER SECTION*/
+.footer img{width: 60px; margin-top: 20px;}
+.footer p{font-size: 1.1rem;font-weight: 900;color: #3e2723;}
+
+/*BREAK POINTS*/
+/*SMALL DEVICES - SMARTPHONES*/
+@media only screen and (max-width: 600px) { 
+.banner{padding-top: 6rem;}
+}
+
+/*MEDIUM DEVICES - TABLETS*/
+@media only screen and (min-width: 601px) {
+.container{width: 85%;}
+.banner{padding-top: 6rem;}
+.banner h1{font-size: 4.8rem;font-weight: 900;text-transform: uppercase;}
+.banner p{font-size: 1.4rem;}
+}
+
+/*LARGE DEVICES - DESKTOPS*/
+@media only screen and (min-width: 993px) {
+.container{width: 90%;}
+.banner{padding-top: 7rem;}
+.banner h1{font-size: 5.2rem;font-weight: 900;text-transform: uppercase;}
+.banner p{font-size: 1.6rem;} 
+}
